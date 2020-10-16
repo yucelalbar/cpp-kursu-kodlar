@@ -15,11 +15,7 @@ int main()
 
 	print(cout, 10, 20);
 	auto f = bind(print, ref(cout), _1, _2);
+	bind(print, ref(cout), _1, _2)(12, 45);
 	f(10, 20);
+
 }
-
-
-
-
-
-
