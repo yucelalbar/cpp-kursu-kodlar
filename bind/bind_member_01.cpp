@@ -3,12 +3,12 @@
 
 class Myclass {
 public:
-	void func()
+	void func()const
 	{
 		std::cout << "Myclass::func()\n";
 	}
 
-	void foo(int a)
+	void foo(int a)const
 	{
 		std::cout << "Myclass::foo(int a) a = " << a << "\n";
 	}
